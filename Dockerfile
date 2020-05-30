@@ -62,7 +62,6 @@ RUN cd $HOME/work;\
                 dash_dangerously_set_inner_html \
                 dash-renderer \
                 jupyter_plotly_dash \
-                jupyter_plotly_dash \
                 flask; \
     python -m sos_notebook.install;\
     git clone https://github.com/MartinaBoshkovska/b1_map.git;        \
