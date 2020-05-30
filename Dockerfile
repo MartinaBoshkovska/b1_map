@@ -52,17 +52,17 @@ RUN cd $HOME/work;\
                 sos-julia==0.9.12.1 \
                 sos-javascript==0.9.12.2 \
                 sos-r==0.9.12.2 \
-                scipy \
+                scipy==1.1.0 \
                 plotly==4.4.1 \
                 plotly_express==0.4.1 \
-                nibabel \
-                dash \
-                dash_core_components \
-                dash_html_components \
+                nibabel==3.0.0 \
+                dash==1.6.1 \
+                dash_core_components==1.5.1 \
+                dash_html_components==1.0.2 \
                 dash_dangerously_set_inner_html \
-                dash-renderer \
-                jupyter_plotly_dash \
-                flask; \
+                dash-renderer==1.2.0 \
+                jupyter_plotly_dash==0.3.1 \
+                flask==1.0.2; \
     python -m sos_notebook.install;\
     git clone https://github.com/MartinaBoshkovska/b1_map.git;        \
     cd b1_map;\
